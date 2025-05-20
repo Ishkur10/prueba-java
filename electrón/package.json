@@ -1,0 +1,16 @@
+{
+  "name": "feigned-concept-seem-emcr2",
+  "productName": "feigned-concept-seem-emcr2",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Usuario",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "35.0.0"
+  }
+}
