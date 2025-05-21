@@ -10,16 +10,21 @@
         <maven.compiler.release>21</maven.compiler.release>
         <exec.mainClass>com.eyecos.prueba_electron.Prueba_electron</exec.mainClass>
     </properties>
+     <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
-          <!-- Plugin para crear un JAR ejecutable -->
           <plugin>
             <artifactId>maven-jar-plugin</artifactId>
             <version>3.2.2</version>
             <configuration>
               <archive>
                 <manifest>
-                  <!-- Aquí pones tu clase que tiene el main() -->
                   <mainClass>com.eyecos.prueba_electron.Prueba_electron</mainClass>
                 </manifest>
               </archive>
